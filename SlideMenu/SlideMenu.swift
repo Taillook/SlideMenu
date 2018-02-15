@@ -20,7 +20,7 @@ open class SlideMenu: UIViewController {
         MainView.view.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height)
         addChildViewController(MenuView)
         MenuView.view.backgroundColor = UIColor.blue
-        MenuView.view.frame = CGRect(x: view.bounds.width, y: 0, width: 200, height: view.bounds.height)
+        MenuView.view.frame = CGRect(x: view.bounds.width, y: 0, width: 240, height: view.bounds.height)
         scrollView.addSubview(MainView.view)
         scrollView.addSubview(MenuView.view)
     }
@@ -28,7 +28,7 @@ open class SlideMenu: UIViewController {
     func setUP() {
         scrollView.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height)
         scrollView.setContentOffset(scrollView.contentOffset, animated: false)
-        scrollView.contentSize = CGSize(width: view.bounds.width + 200, height: view.bounds.height)
+        scrollView.contentSize = CGSize(width: view.bounds.width + 240, height: view.bounds.height)
         scrollView.isScrollEnabled = true
         scrollView.isPagingEnabled = false
         scrollView.bounces = false
