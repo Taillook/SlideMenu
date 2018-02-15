@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C9A3712C20356BD5005D5549 /* SlideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A3712A20356BD5005D5549 /* SlideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9A3715F20356CEB005D5549 /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A3715E20356CEB005D5549 /* SlideMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C9A3712720356BD5005D5549 /* SlideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A3712A20356BD5005D5549 /* SlideMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideMenu.h; sourceTree = "<group>"; };
 		C9A3712B20356BD5005D5549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A3715E20356CEB005D5549 /* SlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				C9A3712A20356BD5005D5549 /* SlideMenu.h */,
+				C9A3715E20356CEB005D5549 /* SlideMenu.swift */,
 				C9A3712B20356BD5005D5549 /* Info.plist */,
 			);
 			path = SlideMenu;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					C9A3712620356BD5005D5549 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A3715F20356CEB005D5549 /* SlideMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +258,7 @@
 		C9A3713020356BD5005D5549 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -266,6 +272,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.grapebread.SlideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +281,7 @@
 		C9A3713120356BD5005D5549 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

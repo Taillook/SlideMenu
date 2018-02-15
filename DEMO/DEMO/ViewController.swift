@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: SlideMenu {
 
     override func viewDidLoad() {
         super.viewDidLoad()

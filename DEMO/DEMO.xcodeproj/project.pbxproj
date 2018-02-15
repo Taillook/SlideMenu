@@ -13,6 +13,8 @@
 		C9A3714620356CAB005D5549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A3714520356CAB005D5549 /* Assets.xcassets */; };
 		C9A3714920356CAB005D5549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A3714720356CAB005D5549 /* LaunchScreen.storyboard */; };
 		C9A3715420356CAB005D5549 /* DEMOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A3715320356CAB005D5549 /* DEMOUITests.swift */; };
+		C9A37166203577B0005D5549 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9A37164203577B0005D5549 /* Info.plist */; };
+		C9A37167203577B0005D5549 /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A37165203577B0005D5549 /* SlideMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 		C9A3714F20356CAB005D5549 /* DEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A3715320356CAB005D5549 /* DEMOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMOUITests.swift; sourceTree = "<group>"; };
 		C9A3715520356CAB005D5549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A37163203577B0005D5549 /* SlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenu.h; sourceTree = "<group>"; };
+		C9A37164203577B0005D5549 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A37165203577B0005D5549 /* SlideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 		C9A3713220356CAB005D5549 = {
 			isa = PBXGroup;
 			children = (
+				C9A37162203577AF005D5549 /* SlideMenu */,
 				C9A3713D20356CAB005D5549 /* DEMO */,
 				C9A3715220356CAB005D5549 /* DEMOUITests */,
 				C9A3713C20356CAB005D5549 /* Products */,
@@ -94,6 +100,17 @@
 				C9A3715520356CAB005D5549 /* Info.plist */,
 			);
 			path = DEMOUITests;
+			sourceTree = "<group>";
+		};
+		C9A37162203577AF005D5549 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C9A37163203577B0005D5549 /* SlideMenu.h */,
+				C9A37164203577B0005D5549 /* Info.plist */,
+				C9A37165203577B0005D5549 /* SlideMenu.swift */,
+			);
+			name = SlideMenu;
+			path = ../SlideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A37166203577B0005D5549 /* Info.plist in Resources */,
 				C9A3714920356CAB005D5549 /* LaunchScreen.storyboard in Resources */,
 				C9A3714620356CAB005D5549 /* Assets.xcassets in Resources */,
 				C9A3714420356CAB005D5549 /* Main.storyboard in Resources */,
@@ -201,6 +219,7 @@
 			files = (
 				C9A3714120356CAB005D5549 /* ViewController.swift in Sources */,
 				C9A3713F20356CAB005D5549 /* AppDelegate.swift in Sources */,
+				C9A37167203577B0005D5549 /* SlideMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
